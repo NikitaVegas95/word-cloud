@@ -63,7 +63,7 @@ const TextCloud:FC = () => {
                 texts,
                 options)
         }
-    }, [])
+    })
 
     return (
         <div className="text-shpere">
