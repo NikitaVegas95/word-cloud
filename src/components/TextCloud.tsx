@@ -50,17 +50,6 @@ const TextCloud:FC = () => {
                 "TEST",
                 "TEST",
                 "TEST",
-                "TEST",
-                "TEST",
-                "TEST",
-                "TEST",
-                "TEST",
-                "TEST",
-                "TEST",
-                "TEST",
-                "TEST",
-                "TEST",
-                "TEST",
             ]
             const options = {
                 radius: 300,
@@ -68,7 +57,8 @@ const TextCloud:FC = () => {
                 initSpeed: 'normal',
                 keep: true,
             }
-            TagCloud(
+            // @ts-ignore
+            TagCloud<any>(
                 container,
                 texts,
                 options)
